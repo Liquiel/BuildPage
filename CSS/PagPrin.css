@@ -1,0 +1,256 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    box-sizing: border-box;
+}
+
+.Curva {
+    background: #000000;
+    color: #fff;
+    text-align: center;
+    transition: all 0.3s ease 0s;
+
+}
+
+.Curva svg {
+    display: block;
+    margin-top: -5%;
+    transition: all 1.5s ease 0s;
+}
+
+.CurvaArriba {
+    background: #000000;
+}
+
+header {
+    background-color: #000000;
+}
+
+ .Curva img {
+    margin-top: -100%;
+    margin-bottom: 2%;
+    cursor: pointer;
+    transition: all 1.5s ease 0s;
+}
+
+li,
+a,
+button {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 16;
+    color: #fff;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 30px 10%;
+}
+
+#NavLinks {
+    list-style: none;
+}
+
+#NavLinks li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+#NavLinks li a {
+    transition: all 0.3s ease 0s;
+}
+
+#NavLinks li a:hover {
+    color: rgb(185, 185, 185);
+
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.4s ease 0s;
+    color: #000000;
+
+
+}
+
+button:hover {
+    background-color: rgb(58, 58, 58);
+    color: #fff;
+}
+
+#Servicios {
+    background-color: #000000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    margin: auto;
+
+    margin-top: -5%;
+    padding: 10%;
+
+
+}
+
+.Titulos h1 {
+    font-size: 40px;
+    text-align: center;
+    color: #fff;
+
+}
+
+.Titulos h2 {
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+
+}
+
+.Titulos {
+    margin-top: -5%;
+}
+
+section {
+    margin-top: 4%;
+    margin-bottom: 2%;
+}
+
+.Caja1 {
+    width: 28%;
+    background: rgb(255, 255, 255);
+    margin: auto;
+    border-radius: 15px;
+    padding-right: 3%;
+    padding-left: 3%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.Caja1:hover {
+    transform: translateY(-15px);
+    transition: all 1s;
+}
+
+.Caja1 h1 {
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.Caja1 p {
+    text-align: justify;
+    font-size: 17px;
+}
+
+.Caja2 {
+    width: 28%;
+    margin: auto;
+    background: rgb(255, 255, 255);
+    border-radius: 15px;
+    padding-right: 3%;
+    padding-left: 3%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+
+}
+
+.Caja2:hover {
+    transform: translateY(-15px);
+    transition: all 1s;
+}
+
+.Caja2 h1 {
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.Caja2 p {
+    text-align: justify;
+    margin-top: 3.8%;
+}
+
+.Caja3 {
+    width: 28%;
+    background: rgb(255, 255, 255);
+    border-radius: 15px;
+    margin: auto;
+    padding-right: 3%;
+    padding-left: 3%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+
+
+}
+
+.Caja3:hover {
+    transform: translateY(-15px);
+    transition: all 1s;
+}
+
+.Caja3 h1 {
+    text-align: center;
+    margin-bottom: 4%;
+}
+
+.Caja3 p {
+    text-align: justify;
+}
+
+.Cajas {
+    margin-top: 3%;
+    display: flex;
+    margin-bottom: -5%;
+    cursor: pointer;
+
+
+}
+
+.IMG3 {
+    margin: auto;
+    margin-top: 4%;
+    width: 20%;
+    margin-bottom: 1%;
+}
+
+.linea1 {
+    border-bottom: #fff solid 2px;
+    height: 0;
+    margin-left: 60%;
+    margin-right: 15%;
+    margin-bottom: -1.5%;
+}
+
+.linea2 {
+    border-bottom: #fff solid 2px;
+    height: 0;
+    margin-left: 15%;
+    margin-right: 60%;
+    margin-top: -0.5%;
+}
+
+.Icono2 {
+    margin: auto;
+    margin-left: 28%;
+    margin-bottom: 5%;
+}
+
+.Icono1 {
+    margin: auto;
+    margin-left: 28%;
+    margin-bottom: 1%;
+}
+
+.Icono3 {
+    margin: auto;
+    margin-left: 28%;
+    margin-bottom: 5%;
+}
